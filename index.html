@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>New Age - Start Bootstrap Theme</title>
+    <title>Star-Advertiser App Landing Page</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,7 +25,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/new-age.min.css" rel="stylesheet">
-
+  </head>  
   <body id="page-top">
 
     <!-- Navigation -->
@@ -48,6 +48,9 @@
               <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="http://hawaii-newspaper.com/dev/2018/ella/app_landing/tutorial.html">TUTORIAL</a>
+            </li>            
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
@@ -61,21 +64,17 @@
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
               <h1 class="mb-5">Lorem Ipsum words here, introducing the <br>new app 2-in-1 <br> </h1>
-              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Download Now!</a>
+              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Download Now!</a><br>
+              
+              <!-- <a href="http://hawaii-newspaper.com/dev/2018/ella/app_landing/tutorial.html" class="btn btn-outline btn-xl js-scroll-trigger">Go to tutorial!</a> -->
             </div>
           </div>
           <div class="col-lg-5 my-auto">
             <div class="device-container">
               <div class="device-mockup iphone6_plus portrait white">
-              <!-- <div class="device-mockup ipad landscape black"> -->
-
                 <div class="device">
                   <div class="screen">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                     <img src="img/demo-screen-1.png" class="img-fluid" alt="">
-                  </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                   </div>
                 </div>
               </div>
@@ -107,24 +106,8 @@
           <p class="text-muted">For improved reading experience on the go!</p>
           <hr>
         </div>
-       <!--  <div class="row">
-          <div class="col-lg-4 my-auto">
-            <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
-                  <div class="screen"> -->
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                   <!--  <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
-                  </div>
-                  <div class="button"> -->
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-<!--                   </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
           
-          <div class="container" id="faq">
+          <div class="container">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-lg-4">
@@ -173,6 +156,29 @@
                   </div>
                 </div>                
               </div>
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="feature-item">
+                    <i class="fa fa-umbrella text-primary"></i>
+                    <h3>Weather</h3>
+                    <p class="text-muted">Live weather updates with forecasts, radar, and infrared view.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="feature-item">
+                    <i class="fa fa-soccer-ball-o text-primary"></i>
+                    <h3>Sports</h3>
+                    <p class="text-muted">Get the latest traffic information to help you with your daily commute.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="feature-item">
+                    <i class="fa fa-user-circle-o text-primary"></i>
+                    <h3>Premium Categories</h3>
+                    <p class="text-muted">Subscribers get to enjoy additional contents.</p>
+                  </div>
+                </div>                
+              </div>
             </div>
           </div>
         </div>
@@ -181,46 +187,67 @@
 
 
 
-<!--     <section class="cta">
-      <div class="cta-content">
-        <div class="container">
-          <h2>Stop waiting.<br>Start building.</h2>
-          <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
-        </div>
-      </div>
-      <div class="overlay"></div>
-    </section> -->
-    <section id="faq" style="padding: 100px 0px 100px;">
+    <section id="faq" style="padding: 100px 0px 20px 0px;">
     <div class="container">
       <div class="section-heading text-center">
         <hr><br><br>
           <h2>FAQ </h2>
           <p class="text-muted">Commonly Asked Questions</p>
-          
-        </div>
+      </div>
     <div id="accordion">
+
       <div class="card">
-        <div class="card-header">
-          <a class="card-link" data-toggle="collapse" href="#collapseOne">
-            Collapsible Group Item #1
+        <div class="card-header" >
+          <a class="card-link" data-toggle="collapse" href="#collapseDownload1">
+            How do I download the App? 
           </a>
         </div>
-        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div id="collapseDownload1" class="collapse show" data-parent="#accordion">
           <div class="card-body">
-            Lorem ipsum..
+            <strong>EXISTING USERS: <br></strong>
+            &bull; Update your app with the latest version. <br><hr>
+
+            <strong>NEW USERS:</strong><br>
+            &bull; For <b>iOs</b> users, download it on the App Store using your device. Or you may click this <a href="#">link</a>.<br>
+            &bull; For <b>Android</b> users, download it on the Google Play using your device. Or you may click this <a href="#">link</a>.
           </div>
         </div>
       </div>
+      <div class="card">
+        <div class="card-header" >
+          <a class="card-link" data-toggle="collapse" href="#collapseVersion">
+            How do I access the print replica within the new Star-Advertiser app?
+          </a>
+        </div>
+        <div id="collapseVersion" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            To access the print replica, you will need to click on the icon with the three bars (also known as the hamburger icon) and from the dropdown menu that opens, click on the Print Replica button. You may need to log in to your staradvertiser.com account again, but once logged in, you will be redirected to the print replica.
+          </div>
+        </div>
+      </div>  
+      <div class="card">
+        <div class="card-header" >
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+            I don’t have a staradvertiser.com account. How can I access the print replica?
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            You will need a staradvertiser.com account in order to read the print replica. You can set up an account by going to our subscription portal, after which you can log in with your newly created account info.
+          </div>
+        </div>
+      </div>      
+      
 
       <div class="card">
         <div class="card-header">
           <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-            Collapsible Group Item #2
+            Do I need to log in again?
           </a>
         </div>
         <div id="collapseTwo" class="collapse" data-parent="#accordion">
           <div class="card-body">
-            Lorem ipsum..
+            If you have just updated to the new Star-Advertiser 2-in-1 app with the print replica, you will need to log in again with the same credentials you use to log in to staradvertiser.com.
           </div>
         </div>
       </div>
@@ -228,12 +255,12 @@
       <div class="card">
         <div class="card-header">
           <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-            Collapsible Group Item #3
+            I only want to read the print replica, do I still have to download this App?
           </a>
         </div>
         <div id="collapseThree" class="collapse" data-parent="#accordion">
           <div class="card-body">
-            Lorem ipsum..
+            You can access our print replica on any browser, without the need of downloading the app. Just visit <a href="https://printreplica.staradvertiser.com/">https://printreplica.staradvertiser.com/ .</a>
           </div>
         </div>
       </div>
@@ -267,6 +294,16 @@
       </div>
     </section> -->
 
+    <section id="contact">
+      <div class="container">
+        <hr><br><br>
+          <h2 style="text-align: center">Contact Us </h2>
+        <div class="section-heading text-center">
+          <p>Call our Customer Service Center at (808) 538-NEWS (6397). <br>
+            Customer service representatives are available 5:30 a.m. to 5:30 p.m. Monday-Friday; <br>6:30 a.m. to 10:00 a.m. on weekends. </p>
+        </div>
+      </div>
+    </section>
     <footer>
       <div class="container">
         <p>&copy; Honolulu Star-Advertiser 2018. All Rights Reserved.</p>
